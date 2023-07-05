@@ -1,0 +1,71 @@
+.container{
+  opacity:1;
+    width: 80%;
+      height: 600px;
+      margin:20px;
+      padding:20px;
+      /* border: 1px solid blue; */
+      text-align: center;
+      /* color:white; */
+}
+.form table{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img{
+    background-image: url('images/omnifin13.png');
+    opacity: 1;
+    height:115vh;
+    width: 95vw;
+    text-align: center;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(50%);
+}
+.img .text-center{
+  opacity:5;
+  margin:50px;
+  filter: grayscale(1%);
+  line-height: 1.5;
+}
+.container .img .text-center table tr td .form-floating{
+  opacity:5;
+}
+.container .img .text-center table tr td .form-floating1{
+  opacity:5;
+  text-align:left;
+}
+.container .img .text-center table tr td .btn{
+color:rgb(90, 83, 83);
+
+}
+.container .img .text-center table tr td .btn{
+  opacity:5;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  ul.navbar li {
+    float: left;
+  }
+
+  ul.navbar li a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: #a00b0b;
+  }
+
+  /* Hover effect */
+  ul.navbar li a:hover {
+    background-color: #16973d;
+  }
+ 

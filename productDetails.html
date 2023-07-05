@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="freshcss.css">
+    <style>
+      /* .container .img .text-center table tr td .form-floating1{
+
+padding:10px;
+
+  } */
+    </style>
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-lg navbar-white bg-green">
+    <div class="container-fluid">
+   
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar">
+          <li>
+            <a class="navbar-brand" href="index.html">Login</a>
+         </li> 
+          <li>
+            <a class="navbar-brand" href="sellerDetails.html">Seller Details</a>
+         </li> 
+          <li >
+            <a class="nav-link active" aria-current="page" href="kyc-details.html">KYC Details</a>
+          </li>
+          <li>
+            <a class="nav-link" href="productDetails.html">Product Details</a>
+          </li>
+          <li >
+            <a class="nav-link" href="documentDetails.html">Documents</a>
+          </li>
+          <li >
+            <a class="nav-link " href="loanDetails.html" >Loan Details</a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+    <div class="container-img">
+        <img src="images/OmnifinLogo.png" class="img-fluid" alt="logo">
+    </div>
+  </nav>
+    <div id="navbar-placeholder"></div>
+    
+    <div class="container">
+        <div class="img"><br><br>
+        <h3 class="text-center">Product Details</h3>
+        <div class="text-center">
+          <fieldset style="display: inline-block;">
+            <legend></legend>
+            <TABLE >
+              <tr>
+                <td>
+                  <div class="form-floating mb-0 col-lg-10" style="padding:10px;">
+                    <input type="text" class="form-control" id="floatingApplication1" placeholder="name@example.com"><br>
+                    <label for="floatingApplication1">Deal Number</label>
+                  </div>
+                </td>
+                <td>
+                  <div class="btn mb-5" >
+                        <label for="dropdown" style="font-size:30px; text-align: left;;" >Product</label>
+                        <select id="dropdown" style="padding:10px;">
+                          <option value="option1">Select</option>
+                          <option value="option2">Properties</option>                   
+                        </select>
+                      </div>
+              </td>
+                <!-- <td>
+                  <div class="form-floating mb-0 col-lg-12">
+                    <input type="text" class="form-control" id="floatingApplication3" placeholder="name@example.com"><br>
+                    <label for="floatingApplication3">Scheme</label>
+                  </div>
+                </td> -->
+                <td>
+                  <div class="btn mb-5">
+                        <label for="dropdown" style="font-size:30px; text-align: left;;" >Scheme</label>
+                        <select id="dropdown" style="padding:10px;">
+                          <option value="option1">Select</option>
+                          <option value="option2">50% OFF</option>                   
+                        </select>
+                      </div>
+              </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="form-floating mb-0 col-lg-10">
+                    <input type="text" class="form-control" id="floatingApplication1" placeholder="name@example.com"><br>
+                    <label for="floatingApplication1">Tenure</label>
+                  </div>
+                </td>
+                <td>
+                  <div class="form-floating mb-0 col-lg-10">
+                    <input type="text" class="form-control" id="floatingApplication2" placeholder="name@example.com"><br>
+                    <label for="floatingApplication2">Required Amount</label>
+                  </div>
+                </td>
+                <td>
+                  <div class="form-floating mb-0 col-lg-12">
+                    <input type="text" class="form-control" id="floatingApplication3" placeholder="name@example.com"><br>
+                    <label for="floatingApplication3">Rate Of Interest</label>
+                  </div>
+                </td>
+              </tr>
+            </TABLE>
+          </fieldset>
+          <fieldset>
+           <h3 class="text-center">Asset/Colleteral</h3>
+           <div class="text-center"></div>
+           <fieldset style="display: inline-block;">
+            <table>
+                <tr>
+                    <!-- <td>
+                     
+                      <label for="dropdown">Sucurity/Colleteral Type</label>
+                      <select id="dropdown">
+                        <option value="option1">Asset</option>
+                        <option value="option2">Properties</option>
+                      
+                      </select>
+                      
+                      
+                    </td> -->
+                    <td>
+                      <div class="btn mb-5 col-lg-10">
+                            <b for="dropdown" style="font-size:15px; text-align: left;;" >Sucurity/Colleteral Type</b>
+                            <select id="dropdown" style="padding:10px;">
+                              <option value="option1">Asset</option>
+                              <option value="option2">Properties</option>                   
+                            </select>
+                          </div>
+                  </td>
+                    <!-- <td>
+                      
+                      <label for="dropdown">Nature</label>
+                      <select id="dropdown">
+                        <option value="option1">Select</option>
+                        <option value="option2">Properties</option>
+                      
+                      </select>
+                    </td> -->
+                    <td>
+                      <div class="btn mb-5 col-lg-6">
+                            <b for="dropdown" style="font-size:15px;text-align: left;" >Nature</b>
+                            <select id="dropdown" style="padding:10px;">
+                              <option value="option1">Select</option>
+                              <option value="option2">Properties</option>                   
+                            </select>
+                          </div>
+                  </td>
+                
+                    <!-- <td>
+                      <label for="dropdown">Asset Class</label>
+                      <select id="dropdown">
+                        <option value="option1">Asset</option>
+                        <option value="option2">Properties</option>
+                      
+                      </select>
+                    </td> -->
+                    <td>
+                      <div class="btn mb-5 col-lg-8">
+                            <b for="dropdown" style=" font-size:15px;text-align: left;" >Asset Class</b>
+                            <select id="dropdown" style="padding:10px;">
+                              <option value="option1">Select</option>
+                              <option value="option2">Properties</option>                   
+                            </select>
+                          </div>
+                  </td>
+                    <!-- <td>
+                      <label for="dropdown">Colleteral Class</label>
+                      <select id="dropdown">
+                        <option value="option1"></option>
+                        <option value="option2"></option>
+                      
+                      </select>
+                    </td> -->
+                    <!-- <td>
+                      <div class="btn mb-5 col-lg-6">
+                            <b for="dropdown"  style="font-size:15px;text-align: left;" >Colleteral Class</b>
+                            <select id="dropdown" style="padding:10px;">
+                              <option value="option1">Select</option>
+                              <option value="option2">Properties</option>                   
+                            </select>
+                          </div>
+                  </td> -->
+                  <td>
+                    <div class="btn  mb-5 col-lg-8">
+                          <b for="dropdown" style="opacity:5; font-size:15px;text-align: left;" >Colleteral Class</b>
+                          <select id="dropdown" style="padding:10px;">
+                            <option value="option1">Select</option>
+                            <option value="option2">Properties</option>                   
+                          </select>
+                        </div>
+                </td>
+                  </tr>
+            </table>
+           
+<a href="#" class="btn btn-primary">Save</a>
+
+<a href="documentDetails.html" class="btn btn-primary">NextPage</a>
+
+          </fieldset>
+          </div>
+          </fieldset>
+        </div>
+    </div>
+    </div>
+      
+
+        </fieldset>
+        </div>
+
+      
+      
+</body>
+</html> 
+
